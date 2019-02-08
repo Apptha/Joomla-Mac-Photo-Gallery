@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="List of Images">
+		<message>List of images in with Mac Dock Effect</message>
+	</layout>
+	<state>
+		<name>Standard Album</name>
+		<description>Select album from the list</description>
+		<url addpath="/administrator/components/com_macgallery/elements">
+			<param name="albumid" type="macgallery" default="0" label="Select Album" required="true" description="Please select a album form a list" />
+		</url>
+		<params>
+		</params>
+	</state>
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_macgallery/models/fields">
+
+			<field name="albumid" type="modal_macgallery"
+				label="Select album from the list"
+				required="true"	
+				description="Please select a album form a list"
+			/>
+		</fieldset>
+	</fields>
+</metadata>

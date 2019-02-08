@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.5.2" type="plugin" group="system" method="upgrade">
+	<name>Photo Gallery (Mac Dock Effect) - Plugin</name>
+	<author>Apptha</author>
+    <creationDate>Nov 20 2012</creationDate>
+    <copyright>Copyright (C) 2012</copyright>
+    <authorEmail>support@apptha.com</authorEmail>
+    <authorUrl>www.apptha.com</authorUrl>
+    <version>1.5</version>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<description>Plugin for Apptha Photo Gallery (Mac Dock Effect).  Include Photo Gallery (Mac Dock Effect) in a article. Code is {mac albumid='m' rows='n' cols='c'} or {mac albumid=(m) rows=(n) cols=(c)}  'm' is the albumid value, 'n' is the number of rows, 'c' is the column value. For example: 1) {mac albumid='1' rows='3' cols='3'}  </description>
+	<files>
+		<filename plugin="macgallery">macgallery.php</filename>
+	</files>
+</extension>

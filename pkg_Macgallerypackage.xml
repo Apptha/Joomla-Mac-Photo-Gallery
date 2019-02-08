@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+     <name>Apptha Photo Gallery ( Mac Dock Effect) Package</name>
+     <author>Apptha</author>
+     <creationDate>Nov 20 2012</creationDate>
+      <copyright>Copyright (C) 2012</copyright>
+     <packagename>Mac gallery package</packagename>
+     <authorEmail>support@apptha.com</authorEmail>
+     <authorUrl>www.apptha.com</authorUrl>
+     <version>1.5</version>
+     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+     <url>http://www.apptha.com/</url>
+     <packager>Apptha Team</packager>
+     <packagerurl>http://www.apptha.com/</packagerurl>
+     <description><![CDATA[&nbsp;&nbsp;<p style="font-style:normal;font-size:13px;font-weight:normal; margin-top:10px;margin-left:10px;"><a href="http://www.apptha.com" target="_blank"><img src="components/com_macgallery/assets/apptha.gif" alt="Joomla! Apptha Photo Gallery (Mac Dock Effect)" align="left" />&nbsp;&nbsp;Apptha</a> Photo Gallery (Mac Dock Effect) Component, Module, Plugin</p>]]></description>
+     <update>http://www.apptha.com</update>
+         <files folder="packages">
+           <file type="component" id="com_macgallery" >com_macgallery_5_1.zip</file>
+           <file type="module" id="mod_macgallery" client="site">macgallery.zip</file>
+           <file type="plugin" id="macgallery" group="system">mod_macgallery.zip</file>
+         </files>
+ </extension>

@@ -1,0 +1,70 @@
+/*
+ ***********************************************************
+
+ * Component Name: Mac-Dock Gallery
+ * Description: Mac dock photo gallery component for Joomla 1.5, 1.6 & 1.7
+ * Version: 1.3
+ * Edited By: Sameera
+ * Author URI: http://www.apptha.com/
+ * Date : March 14 2011
+
+ **********************************************************
+
+ @Copyright Copyright (C) 2010-2011 Contus Support
+ @license GNU/GPL http://www.gnu.org/copyleft/gpl.html,
+
+ **********************************************************/
+
+#macmain{padding: 5px;}
+#fbmain{z-index:99999;}
+#macshow{padding: 15px 0px 15px;font-family: arial;float: left;width: 97%;margin: 10px;text-align: justify;}
+#macshow span {font-size: 14px;font-weight: bold;color: #0D3573;margin-right: 5px;font-family: arial;}
+#imgwrapper{padding: 10px;margin:0 0 8px 0;height:auto; }
+#imgmain {width:100%;float:left;}
+#album .albheader{margin:0;padding:18px 10px 14px ;}
+#wrap ul li{float: left;padding: 0;margin-right: 10px;background: none;list-style: none;}
+#pagination {display: block;height: 30px;text-align: center !important;margin: 40px 0 0 0;}
+.album_carosole{width: 98%; margin: 0 0 6px 8px;}
+/*.album_carosole h4 {text-align: center;color: #0D3573; margin: 0px;background-color: #CCC;padding: 10px 0px 10px 0px;font-weight: bold;font-family: arial;} */
+.mac_slider {margin: 0px auto;width:100%;float:left    }
+.description {float:left;width:100px;height:20px;}
+.description h4{color: #FFFFFF;float: left;font-size: 13px;font-weight: bold;margin: 0 0 5px 5px;padding: 0;width:100%;}
+.description .desc {color: #A2A2A2;    float: left;    font-size: 10px;    font-weight: bold;    margin: 5px 0 5px 5px;    padding: 0;    text-align: justify;}
+.prev {width:26px;height:29px;cursor:pointer;display:inline;padding: 0 10px;}
+.prev a {width:100px;height:29px;}
+.next {display:inline;padding: 0 10px;width: 26px;height:29px;cursor:pointer;}
+.next a {width:50px;height:29px;}
+.clear {clear:both;}
+.clearfix:after {clear: both;display: block;content: " ";height: 0px;visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hide these rules from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+ li.clearfix { display: list-item;}
+.jcarousel-skin-tango .jcarousel-direction-rtl {direction: rtl;}
+.jcarousel-skin-tango .jcarousel-container-horizontal {padding: 20px 40px;width: auto;max-width: 100%;}
+.jcarousel-skin-tango .jcarousel-clip {overflow: hidden;}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {height: 100px;}
+.jcarousel-skin-tango .jcarousel-item {width: 100px;height: 150px;}
+.jcarousel-skin-tango .jcarousel-item-horizontal {margin-left: 0;}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {margin-left: 10px;margin-right: 0;}
+.jcarousel-skin-tango .jcarousel-item-placeholder {background: #fff; color: #000;}
+/**
+ *  Horizontal Buttons
+*/
+.jcarousel-skin-tango .jcarousel-next-horizontal {cursor: pointer;position: absolute;top: 55px;right: 0px;width: 35px;height: 32px;background: transparent url(../images/next-horizontal.png) no-repeat 0 0;}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {left: 5px;right: auto;background-image: url(../images/prev-horizontal.png);}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {cursor: default;background-position: -96px 0;}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {position: absolute;top: 55px;left: 0px;width: 35px;height: 32px;cursor: pointer;background: transparent url(../images/prev-horizontal.png) no-repeat 0 0;}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {position: absolute; width: 32px;height: 32px;left: 5px;background-image: url(../images/next-horizontal.png);}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {cursor: default;background-position: -96px 0;}
+.appthafacebox-opacity {background: none repeat scroll 0 0 #AAAAAA;height: 100%;left: 0;opacity: 0.6;position: fixed;top: 0;width: 100%;z-index: 99979;display:none;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";/* for ie 8 and later*/filter: alpha(opacity=50);/* ie 7 */}
+
+#mycarousel a{background: transparent !important; }
+.mac-gallery-image{overflow: hidden;text-align: center;width: 800px;padding-bottom: 5px;}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    	<fields name="params">
+			<fieldset name="basic"
+				addfieldpath="/administrator/components/com_macgallery/models/fields">
+
+				<field name="albumid" type="modal_macgallery"
+					label="Select a album"
+					required="true"
+					description="Please select a album form a list"
+				/>
+				<field name="imagePerRow" type="text" default="3"  label="Images per row" required="true" description="Please enter images per row " />
+						<field name="thumbwidth" type="text" default="50"  label="Image width" required="true" description="Please enter thumb image width" />
+						<field name="mouseOverWidth" type="text" default="50"  label="Mouse over width" required="true" description="Please enter mouse over width" />
+			</fieldset>
+		</fields>
+    </config> 
+
